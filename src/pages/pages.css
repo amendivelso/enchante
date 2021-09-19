@@ -1,0 +1,10 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 1px;
+    grid-auto-rows: minmax(200px, auto);
+    background: #F2D1DE;
+    min-height: 80vh;
+    height: auto;
+    padding: 2%;
+  }
